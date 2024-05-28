@@ -5,7 +5,7 @@
   /* right: 0;
   margin-right: 10%; */
   /* object-fit:none; */
-  background-image: url("../../assets/images/background_illus1.svg");
+  background-image: url("../../assets/images/foxy.gif");
   /* background-image: url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-3.png), 
   /* url("../../assets/images/background_illus.svg") */
   /* url(https://raw.githubusercontent.com/oscicen/oscicen.github.io/master/img/depth-2.png) */
@@ -223,13 +223,13 @@ background: var(--colors-dreamy-gradients-orange); */
 }
 
 .column-one {
-  flex: 55%;
-  padding: 25vh 10px 0 clamp(50px, 8%, 200px);
+  flex: 40%;
+  padding: 15vh 0 0 clamp(50px, 8%, 200px);
   /* trbl */
 }
 .column-two {
-  flex: 45%;
-  padding: 0 clamp(50px, 8%, 200px) 0 10px;
+  flex: 50%;
+  padding: 15vh 20vw 0 50px;
 }
 
 .column-one *,

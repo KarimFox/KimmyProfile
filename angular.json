@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "/portfolio/",
+            "baseHref": "/Kimmy/",
             "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -35,7 +35,7 @@
           },
           "configurations": {
             "production": {
-              "baseHref": "/portfolio/",
+              "baseHref": "/Kimmy/",
               "budgets": [
                 {
                   "type": "initial",
@@ -99,5 +99,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
