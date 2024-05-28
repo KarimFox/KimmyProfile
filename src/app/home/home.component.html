@@ -3,12 +3,21 @@
   <div class="pulsate"><div #elem class="parallax"></div></div>
   <div #elem1 class="circle shadow" [style.top]="top" [style.left]="left"></div>
   <div class="column-one">
-    <div class="card border-primary mb-3" style="max-width: 75vw; max-height: 80vh;">
-      <div class="card-header"><img class="card-image-overlay img" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61be5844-ae8e-470b-a21a-79d3e8a1b1fb/dgicw3t-2a83383d-954c-4781-a453-2502af26c1cc.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxYmU1ODQ0LWFlOGUtNDcwYi1hMjFhLTc5ZDNlOGExYjFmYlwvZGdpY3czdC0yYTgzMzgzZC05NTRjLTQ3ODEtYTQ1My0yNTAyYWYyNmMxY2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.os5XZjObIfhKqn49v_z79kyDU2it5iKiKxN0K60tXPE" style="height: 25vh; padding-left: 5.5rem;"></div>
-    
+    <div
+      class="card border-primary mb-3"
+      style="max-width: 75vw; max-height: 80vh"
+    >
+      <div class="card-header">
+        <img
+          class="card-image-overlay img"
+          src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/61be5844-ae8e-470b-a21a-79d3e8a1b1fb/dgicw3t-2a83383d-954c-4781-a453-2502af26c1cc.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYxYmU1ODQ0LWFlOGUtNDcwYi1hMjFhLTc5ZDNlOGExYjFmYlwvZGdpY3czdC0yYTgzMzgzZC05NTRjLTQ3ODEtYTQ1My0yNTAyYWYyNmMxY2MuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.os5XZjObIfhKqn49v_z79kyDU2it5iKiKxN0K60tXPE"
+          style="height: 25vh; padding-left: 3rem; padding-right: 2.5rem"
+        />
+      </div>
+
       <div class="card-body">
         <h4 class="card-title">💮Karim Urbalejo</h4>
-        <ul style="list-style:none">
+        <ul style="list-style: none">
           <li><p class="card-text">20 Años de edad,</p></li>
           <li><p class="card-text">Open for business🈺,</p></li>
           <li><p class="card-text">Nationality: Mexicano,🟥⬜🟩</p></li>
@@ -20,44 +29,101 @@
     </div>
   </div>
 
-
-
-
-
-
-
-
   <div class="row">
     <div class="column-two">
+      <p class="p-name 2">Kimmy</p>
       <div class="card border-secondary mb-3" style="max-width: 75vw">
         <div class="card-header">Header</div>
         <div class="card-body">
           <h4 class="card-title">Primary card title</h4>
           <p class="card-text">
             Some quick example text to build on the card title and make up the
-            the card title and make up the
-            the card title and make up the
-            the card title and make up thethe card title and make up the
-            the card title and make up the
-
-            bulk of the card's content.
+            the card title and make up the the card title and make up the the
+            card title and make up thethe card title and make up the the card
+            title and make up the bulk of the card's content.
           </p>
         </div>
       </div>
 
-
-
-
-
       <div class="row">
         <div class="card border-primary mb-3" style="max-width: 75vw">
-          <div class="card-header">Header</div>
-          <div class="card-body">
-            <h4 class="card-title">Primary card title</h4>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+          <div class="container">
+            <div class="card tabs card-header">
+              <input
+                id="tab-1"
+                type="radio"
+                class="tab tab-selector"
+                checked="checked"
+                name="tab"
+              />
+              <label for="tab-1" class="tab tab-primary">Product</label>
+              <input
+                id="tab-2"
+                type="radio"
+                class="tab tab-selector"
+                name="tab"
+              />
+              <label for="tab-2" class="tab tab-success">Options</label>
+              <input
+                id="tab-3"
+                type="radio"
+                class="tab tab-selector"
+                name="tab"
+              />
+              <label for="tab-3" class="tab tab-default">Shipping</label>
+              <input
+                id="tab-4"
+                type="radio"
+                class="tab tab-selector"
+                name="tab"
+              />
+              <label for="tab-4" class="tab tab-warning">Published</label>
+              <div class="tabsShadow"></div>
+              <div class="glider"></div>
+              <section class="content">
+                <div class="card-body">
+                  <div class="item" id="content-1">
+                    <h2 class="tab-title tab-primary">Sweep + Slide Dog Toy</h2>
+                    <p>
+                      <span class="numit">1</span> The Sweep + Slide is an
+                      indoor dog toy with a sleek base designed to glide across
+                      any floor. Not only does this toy stimulate your dog's
+                      natural chase instincts, but it also sweeps away floor
+                      dust and grime with a replaceable sweeper bottom cover.
+                    </p>
+                  </div>
+                  <div class="item" id="content-2">
+                    <h2 class="tab-title tab-success">Tab 2</h2>
+                    <p>
+                      <span class="numit">2</span> Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad
+                      minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                      dolor
+                    </p>
+                  </div>
+                  <div class="item" id="content-3">
+                    <h2 class="tab-title tab-default">Tab 3</h2>
+                    <p>
+                      <span class="numit">3</span> Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua. Ut enim ad
+                      minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo consequat. Duis
+                    </p>
+                  </div>
+                  <div class="item" id="content-4">
+                    <h2 class="tab-title tab-warning">Tab 4</h2>
+                    <p>
+                      <span class="numit">4</span> Lorem ipsum dolor sit amet,
+                      consectetur adipiscing elit, sed do eiusmod tempor
+                      incididunt ut labore et dolore magna aliqua.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
           </div>
         </div>
       </div>
