@@ -4,16 +4,16 @@
   border-radius: 10px;
   border: none;
   margin: 0 auto;
+  width: 75vw;
 }
 
 .tabs {
-  text-align: left;
+  display: block;
 }
 
 .tabs input {
+
   opacity: 0;
-  margin: 0;
-  padding: 0;
 }
 
 .tabs input + label:hover {
@@ -23,25 +23,18 @@
 .tabs .tabsShadow {
   box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.04);
   box-sizing: border-box;
-  height: 35px;
   z-index: 0;
   top: 0;
   pointer-events: none;
-}
-.content {
-  /* Otros estilos aquí */
-  overflow: auto; /* Agrega barras de desplazamiento horizontal si es necesario */
 }
 
 .content .item {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
-  padding: 10px 20px;
-  position: absolute;
+  width: 40vw;
+  position:absolute;
   /* Ajusta la posición según sea necesario */
-  top: 0;
-  left: 0;
 }
 
 #tab-1:checked ~ .glider {
@@ -70,20 +63,17 @@
 }
 
 .tabs input + label {
-  margin: 12px -8px;
-  width: 15%;
+  width: 9.65vw;
+  height: 2vh;
   transition: all 0.3s;
-  text-align: center;
-  border: none;
-  border-bottom: 0.5pt solid #1d1e22;
+  border: groove;
+  border-color: #575eff;
   color: #e7e9f5;
   display: inline-flex;
   -webkit-box-pack: center;
-  padding: 5pt 10pt;
+
   vertical-align: top;
-  justify-content: flex-start;
-  background: #333;
-  box-shadow: 1px 1px 2px 1px #231f20;
+  background: rgba(103, 19, 103, 0.558);
   text-transform: uppercase;
   font-weight: 300;
   font-size: 8pt;
@@ -91,35 +81,19 @@
 }
 
 .content {
-  margin: 0 auto;
   text-align: left;
-  line-height: 20px;
-  height: 240px;
   border-radius: 5px;
   box-shadow: 0 2px 3px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 10%);
-  display: block;
-  padding: 1.25rem;
   z-index: 2;
-  border-top: 1px solid #3b3d3f;
-  background: hsl(232deg 16% 15%);
 }
 
-.container .card {
-  max-width: 600px;
-  min-height: 140px;
-  border-radius: 10px;
-  border: none;
-  margin: 0 auto;
-}
+
 
 .content p {
-  margin: 10px 15px 10px 0;
   letter-spacing: 0.75px;
   font-size: 14pt;
   font-style: normal;
   color: #f0f2fc;
-  line-height: 30px;
-  margin-top: 10pt;
   font-family: "freight-display-pro";
   font-weight: 300 !important;
 }
@@ -128,13 +102,10 @@ h2.tab-title.tab-warning,
 h2.tab-title.tab-success,
 h2.tab-title.tab-primary,
 h2.tab-title.tab-default {
-  display: inline-flex;
+  height: 10px;
+
   color: #fff;
   background-position: bottom center;
-  margin-bottom: 0pt !important;
-  margin-top: 6pt;
-  height: 22pt;
-  text-fill-color: transparent !important;
   background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
@@ -143,8 +114,6 @@ h2.tab-title.tab-default {
   -ms-background-clip: text;
   -ms-text-fill-color: transparent;
   text-transform: capitalize;
-  font-size: 24px;
-  letter-spacing: 0px;
   font-family: "Manrope" !important;
   font-weight: 800 !important;
 }
@@ -172,9 +141,7 @@ h2.tab-title.tab-warning {
 }
 
 .tabs input {
-  position: relative;
   opacity: 0;
-  margin: auto !important;
   padding: 0;
 }
 
@@ -200,10 +167,12 @@ label.tab.tab-warning {
 
 #tab-1:checked ~ .glider {
   left: 1.6%;
+  top: 10%;
 }
 
 #tab-2:checked ~ .glider {
-  left: 21.85%;
+  left: 14.85%;
+  top: 10%;
 }
 
 #tab-3:checked ~ .glider {
@@ -216,12 +185,14 @@ label.tab.tab-warning {
     #ff974d 85%,
     #ff8052 100%
   );
-  left: 42.15%;
+  left: 28.15%;
+  top: 10%;
 }
 
 #tab-4:checked ~ .glider {
   background: linear-gradient(90deg, #b9326f 0%, #ff5ddc 100%);
-  left: 62.365% !important;
+  left: 42.365% !important;
+  top: 10%;
 }
 
 .glider {
