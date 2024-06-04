@@ -16,7 +16,7 @@
       </div>
 
       <div class="card-body">
-        <h4 class="card-title">💮Karim Urbalejo</h4>
+        <h2 class="card-title">💮Karim Urbalejo</h2>
         <ul style="list-style: none">
           <li><p class="card-text">20 Años de edad,</p></li>
           <li><p class="card-text">Open for business🈺,</p></li>
@@ -31,8 +31,7 @@
 
   <div class="row">
     <div class="column-two">
-      <p class="p-name 2">Kimmy</p>
-      <div class="card border-secondary mb-3" style="max-width: 75vw;">
+      <div class="card border-secondary mb-3" style="max-width: 75vw">
         <div class="card-header">About Me</div>
         <div class="card-body">
           <h4 class="card-title">Quiet, Bond, Creative</h4>
@@ -43,7 +42,10 @@
       </div>
 
       <div class="row">
-        <div class="card border-primary mb-3" style="max-width: 48vw; height: 24vh;">
+        <div
+          class="card border-primary mb-3"
+          style="max-width: 48vw; height: 43.8vh"
+        >
           <div class="container">
             <div class="card tabs card-header">
               <input
@@ -80,37 +82,110 @@
               <section class="content">
                 <div class="card-body">
                   <div class="item" id="content-1">
-                    <h2 class="tab-title tab-primary">Fluent: Spanish - English</h2>
+                    <h2 class="tab-title tab-primary">
+                      Fluent: Spanish - English
+                    </h2>
 
-
-                    <p>
-                      Frameworks:
-                    </p>
-                    <div style="display: flex; justify-content: center; justify-items: center;">
-                    <p>JS frameworks 70%</p>
-                    <div class="progress" style="width: 20vw;">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-                    </div>
-                    <p>C# 75%</p>
-                    <div class="progress" style="width: 20vw;">
-                      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-                    </div>
-                    <p>Java 80%</p>
-                    <div class="progress" style="width: 20vw;">
-                      <div class="progress-bar-info progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                    <p>Frameworks:</p>
+                    <div
+                      style="
+                        display: flex;
+                        justify-content: center;
+                        justify-items: center;
+                      "
+                    >
+                      <p>JS frameworks 70%</p>
+                      <div class="progress" style="width: 20vw">
+                        <div
+                          class="progress-bar progress-bar-striped progress-bar-animated"
+                          role="progressbar"
+                          aria-valuenow="75"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 70%"
+                        ></div>
+                      </div>
+                      <p>C# 75%</p>
+                      <div class="progress" style="width: 20vw">
+                        <div
+                          class="progress-bar progress-bar-striped progress-bar-animated"
+                          role="progressbar"
+                          aria-valuenow="75"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 75%"
+                        ></div>
+                      </div>
+                      <p>Java 80%</p>
+                      <div class="progress" style="width: 20vw">
+                        <div
+                          class="progress-bar-info progress-bar-striped progress-bar-animated"
+                          role="progressbar"
+                          aria-valuenow="75"
+                          aria-valuemin="0"
+                          aria-valuemax="100"
+                          style="width: 80%"
+                        ></div>
+                      </div>
                     </div>
                   </div>
 
-
-                  </div>
                   <div class="item" id="content-2">
-                    <h2 class="tab-title tab-success">Github Profile: KarimFox</h2>
-                    <p>
-                       Who can it be knocking at my door?
-                    </p>
+                    <div *ngIf="githubData" class="repositories-container">
+                      <div
+                        *ngFor="let repo of githubData"
+                        class="repository-card"
+                      >
+                        <div
+                          class="card border-warning mb-3"
+                          style="
+                            width: 15vw;
+                            height: fit-content;
+                            margin-top: 1vh;
+                            margin-bottom: 1vh;
+                          "
+                        >
+                          <img
+                            style="width: 2vw; margin-left: 6vw;"
+                            [style.background-color]="
+                              randomColors[repo.id % randomColors.length]
+                            "
+                            [src]="
+                              'https://raw.githubusercontent.com/simple-icons/simple-icons/dc7e81361496998806f79b6e93a52ee8f7b9768e/icons/' +
+                              repo.language
+                                .replace('#', 'sharp')
+                                .replace('CSS', 'css3')
+                                .toLowerCase() +
+                              '.svg'
+                            "
+                          />
+
+                          <h3>{{ repo.name }}</h3>
+                          <p>
+                            <strong>URL:</strong>
+                            <a href="{{ repo.html_url }}" target="_blank">{{
+                              repo.html_url
+                            }}</a>
+                          </p>
+                          <p>
+                            <strong>Descripción:</strong>
+                            {{ repo.description }} <strong>Language:</strong>
+                            {{ repo.language }}
+                          </p>
+                        </div>
+                      </div>
+                     
+                    </div>
+                    <h3 style=" margin-left: 15vw;">⬅Arrows to navigate list ➡</h3>
                   </div>
+
                   <div class="item" id="content-3">
-                    <h2 class="tab-title tab-default" style="justify-self: center;">Hobbies:</h2>
+                    <h2
+                      class="tab-title tab-default"
+                      style="justify-self: center"
+                    >
+                      Hobbies:
+                    </h2>
                     <pre>
                       3D modeling,
                       Drawing,
@@ -121,9 +196,7 @@
                   </div>
                   <div class="item" id="content-4">
                     <h2 class="tab-title tab-warning">Updates :3</h2>
-                    <p>
-                      Currently studying Japanese
-                    </p>
+                    <p>Currently studying Japanese</p>
                   </div>
                 </div>
               </section>
