@@ -16,6 +16,7 @@ export class HomeComponent {
 
 
  githubData: any;
+ skillsData: any;
  randomColors: string[] = [];
 
 
@@ -72,6 +73,21 @@ export class HomeComponent {
         // Manejar errores
         console.error('Error al hacer la solicitud:', error);
       });
+
+
+
+
+      axios.get("https://kimmyfemboyfox-default-rtdb.firebaseio.com/Kimmyportfolio/Skills.json")
+      .then(response => {
+        // La solicitud fue exitosa, asignar los datos recibidos a la variable githubData
+        this.skillsData = Object.values(response.data);
+        console.log(this.skillsData);
+      })
+      .catch(error => {
+        // Manejar errores
+        console.error('Error al hacer la solicitud:', error);
+      });
+      
   }
 
 
