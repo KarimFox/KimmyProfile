@@ -1,5 +1,5 @@
-# 🌊 Portfolio
-#### ⚡ This is my [portfolio website](https://vikiwarrior.github.io/portfolio/).
-#### 📕 Building while learning Angular.
-#### 🔨 Still in progress.
+# KimmyFoxy
+#### This is a Web Portfolio using visual elements from virkram's template
+#### Built in Angular and CSS
+#### school project
  
