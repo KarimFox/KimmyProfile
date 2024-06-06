@@ -313,65 +313,6 @@ span.numit {
 
 }
 
-.circle {
-  position: absolute;
-
-
-  background-color: radial-gradient(
-    111.63% 111.63% at 42.64% -5.82%,
-    #ffa800 33.65%,
-    #ff0000 44.58%,
-    #ff47d6 100%
-  );
-
-  border-radius: 50%;
-
-
-  --colors-dreamy-gradients-orange: radial-gradient(
-    111.63% 111.63% at 42.64% -5.82%,
-    #ffa800 33.65%,
-    #ff0000 44.58%,
-    #ff47d6 100%
-  );
-  --colors-dreamy-gradients-red: radial-gradient(
-    111.63% 111.63% at 42.64% -5.82%,
-    #ff0000 33.65%,
-    #ff47d6 44.58%,
-    #ffa800 100%
-  );
-  --colors-dreamy-gradients-purple: linear-gradient(
-    141.55deg,
-    #575eff -3.79%,
-    #e478ff 82.82%
-  );
-  --colors-dreamy-gradients-blue: radial-gradient(
-    111.63% 111.63% at 42.64% -5.82%,
-    #00aaff 33.65%,
-    #00aaff 44.58%,
-    #00aaff 100%
-  );
-  --colors-dreamy-gradients-green: linear-gradient(
-    180deg,
-    #00ff85 0%,
-    rgba(0, 255, 71, 0) 100%
-  );
-  --colors-dreamy-gradients-orange: radial-gradient(
-    111.63% 111.63% at 42.64% -5.82%,
-    #ffa800 33.65%,
-    #ff0000 44.58%,
-    #ff47d6 100%
-  );
-
-  text-rendering: optimizelegibility;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  width: 10rem;
-  height: 10rem;
-  filter: blur(4rem);
-  opacity: 0.3;
-  background: var(--colors-dreamy-gradients-red);
-}
 
 
 .shadow {
