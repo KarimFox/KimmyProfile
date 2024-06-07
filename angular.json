@@ -65,10 +65,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "portfolio-website:build:production"
+              "browserTarget": "KimmyProfile:build:production"
             },
             "development": {
-              "browserTarget": "portfolio-website:build:development"
+              "browserTarget": "KimmyProfile:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -76,7 +76,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "portfolio-website:build"
+            "browserTarget": "KimmyProfile:build"
           }
         },
         "test": {
