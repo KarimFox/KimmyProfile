@@ -1,124 +1,132 @@
 {
-    "name": "interests",
+    "name": "If (Alive)",
     "children": [
         {
-            "name": "art",
+            "name": "When Sleep deprived",
             "children": [
-                { "name": "design" },
-                { "name": "painting" }
+                { "name": "🦊Game (add me on steam)🐺" },
+                { "name": "Chat💕💋" }
             ]
         },
         {
-            "name": "sports",
+            "name": "When outside",
             "children": [
                 {
-                    "name": "design",
+                    "name": "I have my rollerskates",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "Roll 🦊😎🐺💅" },
+                        { "name": "I fell over 😢" }
                     ]
                 },
                 {
-                    "name": "painting",
+                    "name": "With my headphones",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "Relax" },
+                        { "name": "Making my way downtown, Walking fast, Faces pass and I'm home bound" }
                     ]
                 }
             ]
         },
         {
-            "name": "more",
+            "name": "Likings",
             "children": [
                 {
-                    "name": "design",
+                    "name": "Food",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "Maruchan" },
+                        { "name": "Spaghetti" },
+                        { "name": "Chimkn" }
                     ]
                 },
                 {
-                    "name": "painting",
+                    "name": "Drinks",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "Caffeine addict (Energy drinks, Coffee)" },
+                        { "name": "A bit tipsy~ (whiskey, wine, vodka)" }
                     ]
                 }
             ]
         }
         , {
-            "name": "sports",
+            "name": "Hobbies",
             "children": [
                 {
-                    "name": "design",
+                    "name": "3dModeling",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "chibi foxes in blender" },
+                        { "name": "low poly stuff really" }
                     ]
                 },
                 {
                     "name": "painting",
                     "children": [
-                        { "name": "design" },
+                        { "name": "Drawing furries" },
                         { "name": "painting" }
                     ]
                 }
             ]
         },
         {
-            "name": "sports",
+            "name": "Strenghts",
             "children": [
                 {
-                    "name": "design",
+                    "name": "Fluent Languages",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "English" },
+                        { "name": "Spanish" }
                     ]
                 },
                 {
-                    "name": "painting",
+                    "name": "Helpful",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "Cooperative" },
+                        { "name": "Talkative" }
                     ]
                 }
             ]
         },
         {
-            "name": "sports",
+            "name": "Weaknesses",
             "children": [
                 {
-                    "name": "design",
+                    "name": "Reserved",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "Sometimes quiet" },
+                        { "name": "Sometimes doesn't want to go out..." }
                     ]
                 },
                 {
-                    "name": "painting",
+                    "name": "Distracted",
                     "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
+                        { "name": "I need reminders (I set them myself)" },
+                        { "name": "I may ask about a thing as many times I need" }
                     ]
                 }
             ]
         },
         {
-            "name": "sports",
+            "name": "Curious??",
             "children": [
                 {
-                    "name": "design",
-                    "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
-                    ]
+                    "name": "Genderfluid"
                 },
                 {
-                    "name": "painting",
-                    "children": [
-                        { "name": "design" },
-                        { "name": "painting" }
-                    ]
+                    "name": "I like hugging friends and being clingy"
+                },
+                {
+                    "name": "I'm a bit gay-ish looking, (maybe)"
+                },
+                {
+                    "name": "I like biting"
+                },
+                {
+                    "name": "Fox Sona"
+                },
+                {
+                    "name": "Pro gamer"
+                },
+                {
+                    "name": "uwu"
                 }
             ]
         }
